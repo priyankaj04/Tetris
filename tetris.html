@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tetris</title>
+        <link rel="stylesheet" href="tetris.css">
+</head>
+<body>
+        <div class="game-background">
+                <h1>TETRIS!</h1>
+                <div class="game">
+                        <div class="grid"></div>
+                        <div class = "game-over"></div>
+                </div>
+                <div class="display-score">
+                        <h2>Score</h2>
+                        <div class = "value">0</div>
+                        <div class="next-block">
+                                <div class="next-grid"></div>
+                        </div>
+                        <button class="start-button" href = "#">START</button>
+                </div>
+                <div class="rules">
+                        <h2>Rules!</h2>
+                        <ol>Left arrow -> to move left.</ol>
+                        <ol>Right arrow -> to move right.</ol>
+                        <ol>Enter key -> to rotate.</ol>
+                        <ol>Space key -> to start/pause game.</ol>
+                </div>
+        </div>
+
+        <script src="tetris.js"></script>
+</body>
+</html>
